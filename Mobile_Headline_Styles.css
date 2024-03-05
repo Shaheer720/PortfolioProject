@@ -1,0 +1,90 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.MainPage {
+  width: 375px;
+  height: 604px;
+  top: 92px;
+  padding: 114px 24px 114px 24px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  background-image: url('Assets/header-shapes\ mobile@2x.svg');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position-y: 12px;
+}
+
+.header2 {
+  width: 327px;
+  height: 150px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.Body2 {
+  width: 327px;
+  height: 146px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #344563;
+}
+
+.socialcontainer {
+  width: 122px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+.SocialIcons {
+  width: 170.17px;
+  height: 20px;
+  color: #505f79;
+  display: flex;
+  flex-direction: row;
+}
+
+.twitter {
+  width: 19.99px;
+  height: 19.96px;
+  background-image: url('Assets/Vectortwitter.svg');
+}
+
+.linkedin {
+  margin-left: 19.01px;
+  width: 20px;
+  height: 20px;
+  background-image: url('Assets/Linkedin\ iconlinkedin.svg');
+  background-size: cover;
+}
+
+.M {
+  margin-left: 20px;
+  width: 20px;
+  height: 16px;
+  background-image: url('Assets/Vectorvector.svg');
+  margin-top: 2px;
+}
+
+.github {
+  margin-left: 20px;
+  width: 17.99px;
+  height: 20px;
+  background-image: url('Assets/Vectorgit.svg');
+  background-size: cover;
+}
+
+.Hand {
+  margin-left: 19.01px;
+  width: 14.17px;
+  height: 20px;
+  background-image: url('Assets/Vectorhand.svg');
+  background-size: cover;
+}
