@@ -758,3 +758,114 @@
   background-image: url('Assets/Largernormalbutton.svg');
   background-size: cover;
 }
+
+.ContactMe {
+  position: absolute;
+  width: 375px;
+  height: 779px;
+  left: 0;
+  top: 5410px;
+  background-image: url('Assets/Contact\ mebackCOntact.png');
+}
+
+.ContactMeShapes {
+  width: 222px;
+  height: 709.17px;
+  position: absolute;
+  top: 5431px;
+  left: 153px;
+  background-image: url('Assets/contact\ form\ shapes-mobile@2x.svg');
+  background-clip: border-box;
+}
+
+.ContactMetitl {
+  width: 375px;
+  height: 56px;
+  position: relative;
+  top: 103px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+  color: #fff;
+}
+
+.ContactMetxt {
+  width: 327px;
+  height: 137px;
+  position: relative;
+  top: 115px;
+  left: 24px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: #fff;
+}
+
+.fourm {
+  position: absolute;
+  top: 300px;
+}
+
+.FourmName {
+  width: 327px;
+  height: 48px;
+  position: relative;
+  top: 52px;
+  left: 24px;
+  gap: 0px;
+  opacity: 0px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+}
+
+.Fourmemail {
+  width: 327px;
+  height: 48px;
+  position: relative;
+  top: 70px;
+  left: 24px;
+  gap: 0px;
+  opacity: 0px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+}
+
+.fourmtext {
+  width: 327px;
+  height: 170px;
+  position: relative;
+  top: 86px;
+  left: 24px;
+  gap: 0px;
+  opacity: 0px;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+}
+
+.getintouch {
+  width: 142px;
+  height: 48px;
+  position: relative;
+  top: 100px;
+  left: 24px;
+  padding: 12px 16px 12px 16px;
+  gap: 0px;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  opacity: 0px;
+  color: #6070ff;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+}
