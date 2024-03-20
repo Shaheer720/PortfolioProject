@@ -73,6 +73,7 @@
   background-repeat: no-repeat;
   background-size: auto;
   background-position-y: 12px;
+  animation: slideIn 5s ease forwards;
 }
 
 .header2 {
@@ -156,6 +157,8 @@
   display: grid;
   grid-column: 25% 25% 25% 25%;
   gap: 88px;
+  animation: slideIn 4s ease forwards;
+
 }
 
 .Card1 {
@@ -465,6 +468,7 @@
   padding: 114px 24px 114px 24px;
   display: grid;
   gap: 24px;
+  animation: slideIn 3s ease forwards;
 }
 
 .TOP {
@@ -514,6 +518,7 @@
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
+  animation: slideIn 2s ease forwards;
 }
 
 .SocilaFrame {
