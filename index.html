@@ -21,8 +21,6 @@
 </head>
 <body>
 
-    
-  <section class="Container">
     <article class="ToolbarDark">
         <div class="MyLogoContainer">
             <p class="MyLogo">My Logo</p>
@@ -33,12 +31,12 @@
             </div>
         </div>
     </article>
-    </section>
 
 
     <section class="MainPage">
+      <div class="position-text">
         <article class="header2">
-            I'm Alaxendra.
+            I'm Alaxendra.<br>
             Glad to see
             you!
         </article>
@@ -46,7 +44,12 @@
             I'm a software developer! I can help you build a product , feature or website Look through some of my work and
             experience! If you like what you see and have a project you need coded, don't hesitate to contact me.
         </article>
-        <article class="socialcontainer"> LET'S CONNECT </article>
+        <article class="socialcontainer"> 
+          <div class="supporting-text">
+            <div class="lets-connect">LET'S CONNECT</div>
+          </div> 
+        </article>
+      </div>
         <article class="SocialIcons">
             <div class="twitter"></div>
             <div class="linkedin"></div>
@@ -92,9 +95,9 @@
         <div class="Lblock2">
           <div class="PrimTx2">
             <p class="titl2">
-              Multi-Post <br>
+              Multi-Post
               Stories</p>
-            <div class="frame1"></div>
+            <div class="frame2"></div>
           </div>
           <p class="Ptx1"> A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
 
@@ -124,7 +127,7 @@
         <div class="Lblock3">
           <div class="PrimTx3">
             <p class="titl3">Tonic</p>
-            <div class="frame1"></div>
+            <div class="frame2"></div>
           </div>
           <p class="Ptx1"> A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
 
@@ -156,7 +159,7 @@
             <p class="titl4">
               Multi-Post <br>
               Stories</p>
-            <div class="frame1"></div>
+            <div class="frame3"></div>
           </div>
           <p class="Ptx1"> A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
 
@@ -184,6 +187,7 @@
     
     <section class="AboutMySelf">
       <div class="TOP">
+        <div class="textbox">
         <p class="text1">About Myself</p>
         <p class="text2">Hello I'm a software developer! I can help you build a product , feature or website. Look through some of my work and experience! 
           If you like what you see and have a project you need coded, don't hesitate to contact me.
@@ -207,6 +211,7 @@
             Get my resume
           </p>
         </div>
+      </div>
       </div>
 
       <div class="skillList">
@@ -259,19 +264,21 @@
     </section>
 
     <div class="ContactMe">
-      <div class="ContactMetitl">Contact Me</div>
-      <div class="ContactMetxt">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
-        I'd love to help with it!
+      <div class="ContactMetext">
+        <div class="ContactMetitl">Contact Me</div>
+        <div class="ContactMetxt">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
+          I'd love to help with it!
+        </div>
+        <form class="fourm" id="contactForm" action="https://formspree.io/f/myyrdjln" method="post">
+          <div>
+            <input class="FourmName" type="text" id="name" name="name" maxlength="30" required>
+            <input class="Fourmemail" type="email" id="email" name="email" required>
+            <textarea class="fourmtext" id="message" name="message" placeholder="Write your message here..." maxlength="500" required></textarea>
+            <button class="getintouch" type="submit">Get in touch</button>
+          </div>
+        </form>
       </div>
 
-      <form class="fourm" id="contactForm" action="https://formspree.io/f/myyrdjln" method="post">
-        <div>
-          <input class="FourmName" type="text" id="name" name="name" maxlength="30" required>
-          <input class="Fourmemail" type="email" id="email" name="email" required>
-          <textarea class="fourmtext" id="message" name="message" placeholder="Write your message here..." maxlength="500" required></textarea>
-          <button class="getintouch" type="submit">Get in touch</button>
-        </div>
-      </form>
 
     </div>
     <div class="ContactMeShapes"></div>
